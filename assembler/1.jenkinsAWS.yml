@@ -1,0 +1,6 @@
+---
+- hosts: tag_Service_jenkinsMaster
+  become: true
+  become_user: root
+  roles:
+    - orquestrator

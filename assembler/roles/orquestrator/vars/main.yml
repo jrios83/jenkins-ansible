@@ -1,0 +1,4 @@
+---
+# vars file for roles/orquestrator
+REPO: https://pkg.jenkins.io/debian/jenkins.io.key
+JAVA: openjdk-11-jdk

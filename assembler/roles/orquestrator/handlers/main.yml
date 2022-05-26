@@ -1,0 +1,7 @@
+---
+# handlers file for roles/orquestrator
+- name: Start Jenkins
+  service:
+    name: jenkins
+    enabled: true
+    state: started

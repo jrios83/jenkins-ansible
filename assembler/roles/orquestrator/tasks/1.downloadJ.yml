@@ -1,0 +1,6 @@
+---
+    - name: Download Jenkins Repo
+      apt_key:
+        url: "{{ REPO }}"
+        state: present
+      become: true

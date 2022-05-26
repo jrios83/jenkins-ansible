@@ -1,0 +1,7 @@
+---
+# tasks file for roles/orquestrator
+- import_tasks: 1.downloadJ.yml
+- import_tasks: 2.configRepo.yml
+- import_tasks: 3.update.yml
+- import_tasks: 4.installJava.yml
+- import_tasks: 5.installJenkins.yml

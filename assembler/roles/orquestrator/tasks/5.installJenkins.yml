@@ -1,0 +1,8 @@
+---
+- name: Install Jenkins
+  apt:
+    name: jenkins
+    state: latest
+
+  notify:
+  - Start Jenkins
