@@ -1,2 +1,2 @@
-infra-cloud/aws/.terraform/*
+infra-cloud/aws/backend/.terraform/*
 assembler/.orquestrator/*
